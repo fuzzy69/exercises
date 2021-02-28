@@ -1,8 +1,9 @@
 module datastructures.node;
 
-struct Node
+
+struct Node(T)
 {
-    int value;
+    T value;
     Node *left;
     Node *right;
 }
